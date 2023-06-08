@@ -1,0 +1,144 @@
+        /* Icon set - http://ionicons.com */
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        
+        .snip1268 {
+          font-family: 'Raleway', Arial, sans-serif;
+          position: relative;
+          overflow: hidden;
+          min-width: 220px;
+          max-width: 410px;
+          width: 100%;
+          border-radius: 15px;
+          color: #333333;
+          text-align: center;
+          background-color: #ffffff;
+          line-height: 1.6em;
+          border: 1px solid  rgb(55, 142, 200);
+        }
+        .snip1268:hover {
+            box-shadow: 0 15px 40px rgb(55, 142, 200);
+            border: 2px solid  white;
+          }
+
+        .snip1268 * {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.6s ease;
+          transition: all 0.6s ease;
+        }
+        .snip1268 .image {
+          position: relative;
+        }
+        .snip1268 img {
+            max-width: 100%;
+            max-height: 100%;
+          vertical-align: top;
+          -webkit-transition: opacity 0.35s;
+          transition: opacity 0.35s;
+        }
+
+        .imge{
+            width: 410px;
+            height:410px;
+        }
+        .snip1268 .icons
+         {
+          position: absolute;
+          left: 20px;
+          right: 20px;
+          opacity: 0;
+        }
+        .snip1268 .icons {
+          -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+          top: 350px;
+         
+          display: flex;
+          justify-content: space-between;
+        }
+        .snip1268 .icons a {
+          width: 32.5%;
+          margin-left: 5px;
+          background: #ffffff;
+        }
+        .snip1268 .icons a:hover {
+          background: #a05151;
+          border-radius: 30px;
+
+        }
+        .snip1268 .icons a:hover i {
+          color: #000000;
+          opacity: 1;
+        }
+        .snip1268 .icons i {
+          line-height: 46px;
+          font-size: 20px;
+          color: #000000;
+          text-align: center;
+          opacity: 0.7;
+          margin: 0;
+        }
+  
+    
+        .snip1268 figcaption {
+          padding: 20px 20px 30px;
+        }
+        .snip1268 h2,
+        .snip1268 p {
+          margin: 0;
+          text-align: left;
+        }
+        .snip1268 h2 {
+          margin-bottom: 10px;
+          font-weight: 700;
+        }
+        .snip1268 p {
+          margin-bottom: 15px;
+          font-size: 0.85em;
+          font-weight: 500;
+        }
+        .snip1268 .price {
+          font-size: 1.3em;
+          opacity: 0.8;
+          font-weight: 700;
+          text-align: right;
+        }
+        .snip1268:hover img
+        {
+            -webkit-filter: blur(2px);  
+        }
+        .snip1268:hover .icons,
+        .snip1268.hover .icons
+         {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+
+        
+        .grid-container{  
+          display: grid;
+          grid-template-columns: auto auto ;
+          background-color: #000000;
+          padding-left: 250px;
+          padding-top: 5%;
+          padding-bottom: 5%;
+        }
+        @media only screen and (max-width:500px) {
+          
+            .grid-container{  
+                display: grid;
+                width: 100%;
+                height:auto;
+                grid-template-columns: auto auto ;
+                background-color: #000000;
+              padding-left: 1px;
+              }
+
+              .grid-container.grid-item{
+                margin-right: 50px;
+            
+        }
+    }
